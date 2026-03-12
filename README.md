@@ -1,5 +1,4 @@
 # SaturaJoyas
-Quest HTML
 
 Sitio web estático de **Saturina Joyas** enfocado en catálogo, presencia de marca y contacto.
 
