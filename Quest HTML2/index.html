@@ -1,189 +1,179 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SaturinaJoyas</title>
-    <link rel="stylesheet" href="reset.css" type="text/css">
+    <meta name="description"
+        content="Saturina Joyas: joyería artesanal en plata 925. Catálogo de anillos, colgantes, aros y pendientes con diseño personalizado.">
+    <title>Saturina Joyas</title>
+
+    <link rel="stylesheet" href="css/reset.css" type="text/css">
+    <link rel="stylesheet" href="css/styles.css" type="text/css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
-    <style></style>
-
-
 </head>
 
-<body style="background-color:hsl(60, 69%, 94%);">
-    <nav class="navbar navbar-expand-lg " style="background-color: #fda7fd;">
-        <div class="container-fluid">
-            <a class="navbar-brand" href="#" style="color: rgb(139, 71, 40)"><img src="img/logoF.png" alt="nav-item" width="100"
-                    height="100">Saturina</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" style="color:brown" href="#">Inicio</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" style="color:brown" href="#somos">Nosotros.</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" style="color:brown" href="#vendemos">Que Vendemos.</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" style="color:brown" href="#joyas2023">Coleccion Joyas 2023.</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" style="color:brown" href="#redSocial">Estamos Conectados.</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" style="color:brown" href="#formulario">Formulario.</a>
-                        <!-- # hace refencia a link de la pagina.-->
-                    </li>
-                    </li>
+<body>
+    <a class="skip-link" href="#contenido-principal">Saltar al contenido principal</a>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-custom" aria-label="Navegación principal">
+            <div class="container-fluid">
+                <a class="navbar-brand brand" href="#inicio">
+                    <img src="img/logoF.png" alt="Logo de Saturina Joyas" width="80" height="80" loading="lazy">Saturina
+                </a>
+                <ul class="navbar-nav ms-auto d-flex flex-row flex-wrap gap-2">
+                    <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#somos">Nosotros</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#vendemos">Productos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#joyas2023">Colección 2023</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#redSocial">Redes</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#formulario">Encuesta</a></li>
                 </ul>
             </div>
-        </div>
-    </nav>
+        </nav>
+    </header>
 
-    <section id="somos">
-        <div class="text-center">
-            <img src="img/logoF.png"
-                style="float: left;"
-                sizes="(min-width: 0px) and (max-width: 480px) 480px,(min-width: 481px) 800px, 100vw"
-                class="img-thumbnail" alt="img" width="300" height="300" />
+    <main id="contenido-principal" class="container py-4" tabindex="-1">
+        <section id="inicio" class="text-center section-spacing">
+            <h1 class="title">Saturina Joyas</h1>
+            <p class="subtitle">Diseño artesanal en plata 925 para cada estilo.</p>
+        </section>
 
-            <h4 style="color: coral">
-                ACERCA DE NOSOTROS
-            </h4>
-            <H5 style="color: coral;">
-                Que es Joyeria Saturina?
-            </H5>
-            <p style="color:dimgray,">
-                Somos una pyme especializada en la venta de joyeria de plata #925,<br>
-                ofecemos a nuestros clientes
-                difetentes categoria y estilos de joyeria artesanal elaborada en plata.
-                realizamos pedido a todo chile.
+        <section id="somos" class="section-spacing row align-items-center">
+            <div class="col-md-4 text-center">
+                <img src="img/logoF.png" class="img-thumbnail" alt="Logo de Saturina Joyas" width="260" height="260"
+                    loading="lazy">
+            </div>
+            <div class="col-md-8">
+                <h2>Acerca de nosotros</h2>
+                <p>
+                    Somos una pyme especializada en joyería de plata 925. Ofrecemos piezas artesanales con diseños
+                    únicos y personalizados para clientes en todo Chile.
+                </p>
+                <img src="img/joya Suculenta.jpeg" class="rounded content-image" alt="Joya artesanal con diseño floral"
+                    width="300" height="300" loading="lazy">
+            </div>
+        </section>
+
+        <section id="vendemos" class="section-spacing">
+            <h2>¿Qué productos vendemos?</h2>
+            <img src="img/mixJoya.jpeg" class="img-thumbnail content-image" alt="Colección variada de joyas"
+                width="300" height="300" loading="lazy">
+            <h3>Tipos de joyas</h3>
+            <p>
+                Entre los productos más solicitados se encuentran anillos y pendientes con piedras naturales y
+                acabados finos para distintos estilos.
             </p>
-            <img src="img/joya Suculenta.jpeg" class="rounded" alt="img" width="300" height="300"><br>
-        </div>
+            <div class="d-flex flex-wrap gap-3">
+                <img src="img/anillos.jpeg" class="rounded content-image" alt="Anillos de plata 925" width="300"
+                    height="300" loading="lazy">
+                <img src="img/pendientes.jpeg" class="rounded content-image" alt="Pendientes artesanales de plata"
+                    width="300" height="300" loading="lazy">
+            </div>
+        </section>
 
-    </section>
+        <section id="joyas2023" class="section-spacing text-center">
+            <h2>Colección Joyas 2023</h2>
+            <p>Muchas de nuestras colecciones son únicas y personalizadas.</p>
+            <img src="img/Joya.jpeg" class="rounded content-image" alt="Joya destacada de la colección 2023" width="300"
+                height="300" loading="lazy">
 
-    <section id="vendemos">
-        <div>
-           
-            <h4 style="color: coral;">
-                Que Productos vendemos?
-            </h4>
-            <img src="img/mixJoya.jpeg" class="img-thumbnail" alt="img" width="300" height="300"/>
-            <h5 style="color: coral;">
-                Tipos de joyas:
-            </h5>
-            <p style="color: dimgray;">
-                dentro de los productos mas solicitados se encuntran los anillos y pendientes,<br>
-                los cuales se pueden encontrar con piedras hermosas y distintos modelos.
-            </p>
-            <img src="img/anillos.jpeg" class="rounded" alt="img" width="300" height="300">
-            <img src="img/pendientes.jpeg" class="rounded" alt="img" width="300" height="300">
-        </div>
+            <h3 class="mt-4">Algunas de nuestras colecciones</h3>
+            <p>Diseños para distintos gustos y estilos.</p>
+            <div class="d-flex flex-wrap justify-content-center gap-3">
+                <img src="img/colgante.jpeg" class="rounded content-image" alt="Colgante artesanal" width="300"
+                    height="300" loading="lazy">
+                <img src="img/aros.jpeg" class="rounded content-image" alt="Aros de plata" width="300" height="300"
+                    loading="lazy">
+            </div>
 
-    </section>
-
-
-
-    <section id="joyas2023">
-        <div class="text-center">
-            <h1 style="color: coral;">Coleccion Joyas 2023.</h1><br>
-            <p style="color: dimgray;">muchas de nustras colecciones son unicas y personalizada,</p>
-            <img src="img/Joya.jpeg" class="rounded" alt="img" width="300" height="300"><br>
-            <h2 style="color: #ac2bac;">Algunas de nuestras colecciones.</h2>
-            <h3 style="color: darkmagenta;">para los distintos gustos y estilos.</h3>
-            <img src="img/colgante.jpeg" class="rounded" alt="img" width="300" height="300">
-            <img src="img/aros.jpeg" class="rounded" alt="img" width="300" height="300"><br>
-           <br>
-            <p1 style="color: dimgray;"> para seguir revisando nuestros productos no dudes en pedir nuestro catalogo o ver los productos<br>
-            publicados en instagram.</p1>
-            <h6 style="color: darkorchid;">Algunos de nuestros productos.</h6>
-            <iframe width="560" height="315" src="https://www.youtube.com/embed/5aShTpbFly0"
-                title="YouTube video player" frameborder="0"
-                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                allowfullscreen></iframe>
-
-        </div>
-
-    </section>
-
-
-    <section id="redSocial" >
-        <div class="shared-panel"
-        style="text-align: right;">
-            <h3 style="color: darkred;">Redes Sociales</h3>
-            <p style="color: dimgray;">Aqui puedes encontrar nuestras redes sociales.<br>
-                tanto Instagram Como Youtube.<br>
-                no dudes en contactarnos atravez de instagram.
+            <p class="mt-4">
+                Si quieres conocer más productos, solicita nuestro catálogo o revisa nuestras publicaciones en
+                Instagram.
             </p>
 
-
-            <!-- Youtube -->
-            <a style="color: #dd4b39;" href="https://www.youtube.com/@SaturninaJoyas-wv3he" role="button"><i
-                    class="fab fa-youtube fa-lg">youtube</i></a>
-
-            <!-- Instagram -->
-            <a style="color: #ac2bac;" href="https://instagram.com/saturninajoyas?igshid=YmMyMTA2M2Y="
-                role="button">instagram<i class="fab fa-instagram fa-lg"></i></a>
-        </div>
-
-    </section>
-
-
-
-
-
-
-
-
-    <section class="text-center" id="formulario" style="border: #ac2bac;">
-        <h2 style="color: brown;">ENCUESTA</h2>
-        <h4 style="color: crimson;">Que producto prefieres?</h4>
-        <form>
-            <input type="radio" id="html" name="fav_language" value="HTML">
-            <label for="html">Pendientes</label><br>
-            <input type="radio" id="css" name="fav_language" value="CSS">
-            <label for="css">Pulsera</label><br>
-            <input type="radio" id="javascript" name="fav_language" value="JavaScript">
-            <label for="javascript">Colgante</label><br>
-            <label for="fname">Alias:</label><br>
-            <!-- label muestra lo que tiene ue escribir (print) valor de for debe ser igual al valor id-->
-            <input type="text" id="fname" name="fname" value=""><br>
-            <!--input de tipo texto, id(identificador unico) denominada fname, nombre del input name, valor Jhon -->
-            <label for="lname">Sugerencias:</label><br>
-            <input type="text" id="lname" name="lname" value="">
-            <button type="button" class="lname" disabled>Enviar</button><br>
-        </form><br><br>
-        <form class="row g-3,">
-            <div class="col-auto">
-                <label>Registrate:</label>
-                <label for="staticEmail2" class="visually-hidden">Email</label>
-                <input type="text" class="form-control-plaintext" id="staticEmail2" placeholder="email@example.com">
+            <div class="ratio ratio-16x9 video-wrapper mx-auto">
+                <iframe src="https://www.youtube-nocookie.com/embed/5aShTpbFly0" title="Video de productos de Saturina Joyas"
+                    loading="lazy"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                    referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
             </div>
-            <div class="col-auto">
-                <label for="inputPassword2" class="visually-hidden">Password</label>
-                <input type="password" class="form-control" id="inputPassword2" placeholder="Password">
-            </div>
-            <div class="col-auto">
-                <button type="submit" class="btn btn-primary mb-3">Confirm identity</button>
-            </div>
-        </form>
-    </section>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous">
-        </script>
+        </section>
 
+        <section id="redSocial" class="section-spacing">
+            <h2>Redes sociales</h2>
+            <p>
+                Encuéntranos en Instagram y YouTube para conocer nuevos lanzamientos, tips y promociones.
+            </p>
+            <div class="d-flex gap-3 flex-wrap">
+                <a class="btn btn-outline-danger" href="https://www.youtube.com/@SaturninaJoyas-wv3he" target="_blank"
+                    rel="noopener noreferrer">YouTube</a>
+                <a class="btn btn-outline-purple" href="https://instagram.com/saturninajoyas?igshid=YmMyMTA2M2Y="
+                    target="_blank" rel="noopener noreferrer">Instagram</a>
+            </div>
+        </section>
+
+        <section class="section-spacing" id="formulario">
+            <h2>Encuesta</h2>
+            <p>¿Qué producto prefieres?</p>
+            <form class="mb-4 needs-validation" action="#" method="post" novalidate>
+                <fieldset>
+                    <legend class="h6">Selecciona una opción</legend>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" id="pendientes" name="producto" value="Pendientes"
+                            required>
+                        <label class="form-check-label" for="pendientes">Pendientes</label>
+                    </div>
+                    <div class="form-check">
+                        <input class="form-check-input" type="radio" id="pulsera" name="producto" value="Pulsera">
+                        <label class="form-check-label" for="pulsera">Pulsera</label>
+                    </div>
+                    <div class="form-check mb-3">
+                        <input class="form-check-input" type="radio" id="colgante" name="producto" value="Colgante">
+                        <label class="form-check-label" for="colgante">Colgante</label>
+                    </div>
+                </fieldset>
+
+                <div class="mb-3">
+                    <label for="alias" class="form-label">Alias</label>
+                    <input type="text" id="alias" name="alias" class="form-control" maxlength="40"
+                        autocomplete="nickname" required>
+                </div>
+
+                <div class="mb-3">
+                    <label for="sugerencias" class="form-label">Sugerencias</label>
+                    <textarea id="sugerencias" name="sugerencias" class="form-control" rows="3" maxlength="300"></textarea>
+                </div>
+
+                <button type="submit" class="btn btn-primary">Enviar</button>
+            </form>
+
+            <form class="row g-3 needs-validation" action="#" method="post" novalidate>
+                <div class="col-md-6">
+                    <label for="email" class="form-label">Regístrate con tu correo</label>
+                    <input type="email" class="form-control" id="email" name="email" placeholder="email@example.com"
+                        autocomplete="email" required>
+                </div>
+                <div class="col-md-4">
+                    <label for="password" class="form-label">Contraseña</label>
+                    <input type="password" class="form-control" id="password" name="password" minlength="8"
+                        autocomplete="new-password" required>
+                </div>
+                <div class="col-md-2 align-self-end">
+                    <button type="submit" class="btn btn-success w-100">Registrar</button>
+                </div>
+            </form>
+        </section>
+    </main>
+
+    <footer class="text-center py-3 footer-custom">
+        <small>© <span id="current-year">2026</span> Saturina Joyas. Todos los derechos reservados.</small>
+    </footer>
+
+    <script src="js/main.js" defer></script>
 </body>
 
 </html>
